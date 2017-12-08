@@ -4,8 +4,7 @@ import { LogService } from '../log.service';
 @Component({
   selector: 'app-company',
   templateUrl: './company.component.html',
-  styleUrls: ['./company.component.css'],
-  providers: [LogService]
+  styleUrls: ['./company.component.css']
 })
 export class CompanyComponent implements OnInit {
 
